@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/anhnenh"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/colorgradi">
+
+        <LinearLayout
+            android:id="@+id/avth"
+            android:layout_width="401dp"
+            android:layout_height="195dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/avt" />
+
+            <TextView
+                android:id="@+id/nameh"
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/atma_medium"
+                android:text="Vũ Lê Na"
+                android:textColor="@color/teal_700"
+                android:textSize="30dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btchuyenlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/teal_200"
+            android:fontFamily="sans-serif-black"
+            android:text="List"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btchuyenprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/teal_200"
+            android:fontFamily="sans-serif-black"
+            android:text="Profile"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/teal_200"
+        android:fontFamily="sans-serif-black"
+        android:text="Logout"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="303dp"
+        android:layout_height="294dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="357dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="80dp"
+        app:srcCompat="@drawable/hello" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="136dp"
+        android:layout_height="132dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="334dp"
+        app:srcCompat="@drawable/hi" />
+
+</RelativeLayout>
